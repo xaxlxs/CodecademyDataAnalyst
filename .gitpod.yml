@@ -1,7 +1,7 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init: echo 'init script', pip install pandas, pip intall pyautogui, pip install pywin32
-    command: echo 'start script'
+  - init: echo 'init script'
+    command: echo 'start script', pip install pandas, pip intall pyautogui, pip install pywin32
 
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
