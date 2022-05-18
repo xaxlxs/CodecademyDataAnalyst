@@ -8,6 +8,8 @@ a3 = ' '
 b3 = ' '
 c3 = ' '
 
+dic = {'a1':a1, 'b1':b1, 'c1':c1, 'a2':a2, 'b2':b2, 'c2':c2, 'a3':a3, 'b3':b3, 'c3':c3}
+
 board = '  a   b   c ' + '\n1 ' + a1 + ' | '+ b1 + ' | ' + c1 + '\n ---|---|---' + '\n2 ' + a2 + ' | '+ b2 + ' | ' + c2 + '\n ---|---|---' + '\n3 ' + a3 + ' | '+ b3 + ' | ' + c3
 print(board) 
 
@@ -19,11 +21,12 @@ while round < 10:
         active_player = "X"
     print("Player " + active_player + " chose your cell.")
     cell = input()
-    if cell != " ":
+    space = dic[cell]
+    if space != " ":
         print("Chose another cell.")
         continue
     else:
-        cell = active_player
+        space = active_player
         if active_player in (a1 and b1 and c1):
             board = '  a   b   c ' + '\n1 ' + a1 + ' | '+ b1 + ' | ' + c1 + '\n ---|---|---' + '\n2 ' + a2 + ' | '+ b2 + ' | ' + c2 + '\n ---|---|---' + '\n3 ' + a3 + ' | '+ b3 + ' | ' + c3
             print(board) 
