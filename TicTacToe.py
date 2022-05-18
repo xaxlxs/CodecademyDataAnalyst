@@ -1,22 +1,41 @@
-a = ' '
-b = ' '
-c = ' '
-d = ' '
-e = ' '
-f = ' '
-g = ' '
-h = ' '
-i = ' '
+a1 = ' '
+b1 = ' '
+c1 = ' '
+a2 = ' '
+b2 = ' '
+c2 = ' '
+a3 = ' '
+b3 = ' '
+c3 = ' '
 
-
-board = '  a   b   c ' + '\n1 ' + a + ' | '+ b + ' | ' + c + '\n ---|---|---' + '\n2 ' + d + ' | '+ e + ' | ' + f + '\n ---|---|---' + '\n3 ' + g + ' | '+ h + ' | ' + i
-
-
-print(active_playuer = ': Chose your square.')
-
-
-
+board = '  a   b   c ' + '\n1 ' + a1 + ' | '+ b1 + ' | ' + c1 + '\n ---|---|---' + '\n2 ' + a2 + ' | '+ b2 + ' | ' + c2 + '\n ---|---|---' + '\n3 ' + a3 + ' | '+ b3 + ' | ' + c3
 print(board) 
+
+round = 1
+while round < 10:
+    if round % 2 == 0:
+        active_player = "O"
+    else:
+        active_player = "X"
+    print("Player " + active_player + " chose your cell.")
+    cell = input()
+    if cell != " ":
+        print("Chose another cell.")
+        continue
+    else:
+        cell = active_player
+        if active_player in (a1 and b1 and c1):
+            board = '  a   b   c ' + '\n1 ' + a1 + ' | '+ b1 + ' | ' + c1 + '\n ---|---|---' + '\n2 ' + a2 + ' | '+ b2 + ' | ' + c2 + '\n ---|---|---' + '\n3 ' + a3 + ' | '+ b3 + ' | ' + c3
+            print(board) 
+            print("Player " + active_player + " wins!")
+            break
+        else:
+            print(board)
+            continue
+        round += 1
+
+
+
 
 
 '''
