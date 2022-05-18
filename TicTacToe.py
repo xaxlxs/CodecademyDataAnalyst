@@ -23,7 +23,7 @@ while round < 10:
     cell = input()
     space = dic[cell]
     if space != " ":
-        print("Chose another cell.")
+        print('Chose another cell.')
         continue
     else:
         space = active_player
@@ -33,6 +33,7 @@ while round < 10:
             print("Player " + active_player + " wins!")
             break
         else:
+            board = '  a   b   c ' + '\n1 ' + a1 + ' | '+ b1 + ' | ' + c1 + '\n ---|---|---' + '\n2 ' + a2 + ' | '+ b2 + ' | ' + c2 + '\n ---|---|---' + '\n3 ' + a3 + ' | '+ b3 + ' | ' + c3
             print(board)
             continue
         round += 1
@@ -49,9 +50,4 @@ if requested square != ' ' ask to pick again (loop)
 increment counter
 set requested square to player's character
 check for winner
-
-
-
-
-
 '''
