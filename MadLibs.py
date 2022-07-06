@@ -1,5 +1,5 @@
 
-from time import sleep
+import time
 
 words = []
 
@@ -7,33 +7,13 @@ types = ["plural noun", "adjective", "verb ending in 's'", "verb", "verb", "adve
 
 print("Welcome to madlibs!")
 for i in types:
-    word = input("Please enter a " i)
+    word = input("Please enter a " + i + ": ")
     words.append(word)
 
 print("Generating madlib.  It's a doozy!")
 
 time.sleep(2)
 
+# BREAK THIS LINE DOWN FOR READIBILITY AND MAKE THE FORMATTING NICE
 
-
-print("Yesterday, all my " + words[1])
-
-
-
-
-"""
-   seemed so           [2]          
-Now it           [3]           as though they`re here to           [4]          
-Oh, I           [5]           in yesterday.
-
-          [6]          , I`m not half the           [7]           I used to be,
-There`s a           [8]                     [9]           over me.
-Oh, yesterday came           [6]          .
-
-Why she had to           [10]           I don`t know she wouldn`t           [11]          .
-I said something           [12]          , now I long for yesterday.
-
-Yesterday, love was such an           [13]                     [14]           to play.
-Now I need a           [15]           to           [16]           away.
-Oh, I           [5]           in yesterday.
-"""
+print("Yesterday, all my", words[0], "seemed so", words[1], "Now it", words[2], "as though they`re here to", words[3], "Oh, I", words[4], "in yesterday.", words[5], ", I`m not half the", words[6], "I used to be. There`s a", words[7], words[8], "over me. Oh, yesterday came", words[5], ". Why she had to", words[9], "I don`t know she wouldn`t", words[10], ". I said something", words[11], ", now I long for yesterday. Yesterday, love was such an", words[12], words[13], "to play. Now I need a", words[14], "to", words[15], "away. Oh, I", words[4], "in yesterday.")
