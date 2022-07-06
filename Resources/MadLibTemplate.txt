@@ -1,0 +1,63 @@
+NOUN (PLURAL)	
+ADJECTIVE	
+VERB ENDING IN "S"	
+VERB	
+VERB	
+ADVERB	
+NOUN	
+NOUN	
+VERB ENDING IN "ING"	
+VERB	
+VERB	
+ADJECTIVE	
+ADJECTIVE	
+NOUN	
+NOUN	
+VERB
+
+NOUNS = 4
+VERBS = 5
+ADVERBS = 1
+ADJECTIVES = 3
+NOUN P = 1
+VERB S = 1
+VERB ING = 1
+
+
+
+Yesterday (Beatles)
+	NOUN (PLURAL) [1]	_______________________		VERB ENDING IN "ING" [9]	_______________________
+
+	ADJECTIVE [2]	_______________________		VERB [10]	_______________________
+
+	VERB ENDING IN "S" [3]	_______________________		VERB [11]	_______________________
+
+	VERB [4]	_______________________		ADJECTIVE [12]	_______________________
+
+	VERB [5]	_______________________		ADJECTIVE [13]	_______________________
+
+	ADVERB [6]	_______________________		NOUN [14]	_______________________
+
+	NOUN [7]	_______________________		NOUN [15]	_______________________
+
+	NOUN [8]	_______________________		VERB [16]	_______________________
+
+
+
+NOTE: Some words may occur more than once.
+
+
+Yesterday, all my           [1]           seemed so           [2]          
+Now it           [3]           as though they`re here to           [4]          
+Oh, I           [5]           in yesterday.
+
+          [6]          , I`m not half the           [7]           I used to be,
+There`s a           [8]                     [9]           over me.
+Oh, yesterday came           [6]          .
+
+Why she had to           [10]           I don`t know she wouldn`t           [11]          .
+I said something           [12]          , now I long for yesterday.
+
+Yesterday, love was such an           [13]                     [14]           to play.
+Now I need a           [15]           to           [16]           away.
+Oh, I           [5]           in yesterday.
